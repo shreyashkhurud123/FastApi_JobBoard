@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+
+# For databases
+# SQLAlchemy is an orm which will communicate to postgres
+sqlalchemy
+# Adaptor which is required for connection between sqlalchemy and postgres
+psycopg2
+
+# For env vars
+python-dotenv
