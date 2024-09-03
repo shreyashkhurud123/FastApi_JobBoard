@@ -16,4 +16,4 @@ class User(Base):
 
     # SuperUser will have control over everything (Admin)
     is_superuser = Column(Boolean, default=False)
-    jobs = relationship("Jobs", back_populates="owner")
+    jobs = relationship("Job", back_populates="owner")
