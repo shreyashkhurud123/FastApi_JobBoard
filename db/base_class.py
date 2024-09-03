@@ -12,6 +12,7 @@ class Base:
     # tablename
     __name__: str
 
+    @declared_attr
     # Function to auto generate table name from the class name
     def __tablename__(cls):
         # returns class name
